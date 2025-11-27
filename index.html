@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>final project javascript</title>
+		<link rel="stylesheet" type="text/css" href="final project css.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Borel&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Libertinus+Keyboard&family=Merienda:wght@300..900&family=Monoton&family=Mozilla+Headline:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX+Guides&family=Playwrite+NZ+Guides&family=Reem+Kufi:wght@400..700&family=Sirin+Stencil&family=Sixtyfour&family=Story+Script&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Borel&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Libertinus+Keyboard&family=Merienda:wght@300..900&family=Monoton&family=Mozilla+Headline:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX+Guides&family=Playwrite+NZ+Guides&family=Reem+Kufi:wght@400..700&family=Sirin+Stencil&family=Sixtyfour&family=Story+Script&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="div1" class="divs">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfpiyrU6SaQFTkVzXOUtXSfhXYDOvmESkTDbWRRIs7SwFJXsrd2nurM_LJYkqh_JVXLfo&usqp=CAU" id="logo">
+			<h1 id="header1">Calculator</h1>
+			<h1 id="header2">Choose an Operation :</h1>
+			<img src="https://cdn-icons-png.freepik.com/512/10777/10777953.png" id="img1" onclick="showbutton('+')">
+			<img src="https://ichisaeki.com/wp-content/uploads/2022/04/e32a4533625fd98070fb106464ced302.png"id="img2" onclick="showbutton('-')"><br>
+			<img src="https://cdn-icons-png.flaticon.com/512/17879/17879825.png" id="img3" onclick="showbutton('/')">
+			<img src="https://cdn-icons-png.freepik.com/512/10778/10778025.png" id="img4" onclick="showbutton('*')">
+			<button id="button1" hidden="true" onclick="div()">Let's go</button>
+		</div>
+
+		<div id="div2" class="divs" hidden="true">
+			<span id="span1">Calculate :</span>
+			<span id="span2">Score :</span>
+			<span id="Score"> 0 </span><br>
+			<h1 id="number1"> 1 </h1>
+			<img src="https://cdn-icons-png.freepik.com/512/10777/10777953.png" id="Operations">
+			<h1 id="number2"> 5 </h1>
+			<img src="https://emojigraph.org/media/twitter/heavy-equals-sign_1f7f0.png" id="equals">
+			<input type="number" id="input"><br>
+			<button id="button2" onclick="Calculations()">Calculation</button>
+			<button id="button3" onclick="paragraph()">Play Again</button>
+			<button id="button4" onclick="showdivs()">Change an Operator</button>
+		</div>
+		<script src="final project java.js"></script>
+	</body>
+</html>
